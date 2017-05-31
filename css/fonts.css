@@ -1,0 +1,51 @@
+/* Webfont: Gentium Book Basic Bold */@font-face {
+    font-family: 'Gentium Book Basic Bold';
+    src: url('../fonts/Gentium-Basic/GenBkBasB.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Yeseva One Regular */@font-face {
+    font-family: 'Yeseva One Regular';
+    src: url('../fonts/yeseva-one/YesevaOne-Regular_v2.otf') format('otf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Regular */@font-face {
+    font-family: 'LatoWeb';
+    src: url('../fonts/Lato/Lato-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Open Sans Bold */@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/open-sans/OpenSans-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Open Sans Italic */@font-face {
+    font-family: 'Open Sans Italic';
+    src: url('../fonts/open-sans/OpenSans-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Open Sans Regular */@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
