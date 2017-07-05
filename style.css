@@ -231,7 +231,133 @@ ul {
 
 /***** DEBUT REVIEWS   ****/
 
+#reviews {
+	background: url(images/reviewBackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/* width: 100%;
+	height: 100%; */
+	padding: 2rem 0rem;
+}
 
+#guestReviews {
+	background: url(images/reviewsBackground.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	padding: 1rem;
+	color: #fff;
+	margin: 0 auto;
+}
+
+#guestReviews h3 {
+	font-size: 22px;
+}
+
+#guestReviews img {
+		width: 100%;
+}
+	
+blockquote p {
+	font-family: "Gentium Book Basic Bold";
+	font-size: 16px;
+	color: #dde0df;
+	line-height: 2;
+}
+
+blockquote p:before {
+	content: "\201C";
+    font-family: "Georgia Regular";
+    color: #f2f4f4;
+    font-size: 70px;
+    float: left;
+    margin-top: -50px;
+    margin-left: -14px;
+}
+
+#author {
+	font-family: "Lato Regular";
+	font-size: 12px;
+	color: #fff;
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	blockquote p {
+		font-size: 18px;
+		line-height: 1.8;
+	}
+	
+	blockquote p:before {
+		font-size: 80px;
+		margin-left: -20px;
+	}
+	
+	#author {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 578px) {
+	#guestReviews {
+		width: 77%;
+		padding: 2rem;
+	}
+	
+	#guestReviews h3 {
+		font-size: 36px;
+	}
+	
+	#guestReviews img {
+		width: auto;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {	
+	#reviews {
+		padding: 5rem 0.5rem;
+	}
+	
+	#guestReviews {
+		padding: 3rem;
+	}
+
+	blockquote p {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	blockquote p:before {
+		font-size: 96px;
+		margin-top: -60px;
+		margin-left: -40px;
+	}
+	
+	blockquote p {
+		line-height: 2;
+	}
+	
+	#author {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#reviews {
+		padding: 5rem 8.5rem;
+	}
+	
+	#guestReviews {
+		padding: 5rem;
+	}
+	
+	blockquote p {
+		font-size: 25px;
+		line-height: 2;
+	}
+}
 
 /****	FIN  REVIEWS   ****/
 
