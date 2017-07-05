@@ -190,6 +190,10 @@ ul {
     font-size: 36px;
 }
 
+.menu .divider {
+	width: 100%;
+}
+
 .menu .list-group-item {
 	background-color: transparent;
     border: none;
@@ -217,6 +221,10 @@ ul {
 	#menus {
 		padding: 5rem 0;
 	}
+	
+	.menu .divider {
+		width: auto;
+	}
 }
 
 /****	FIN  MENUS   ****/
@@ -235,6 +243,38 @@ ul {
 
 /***** DEBUT FOOTER   ****/
 
+#footer {
+	background-color: #191919;
+	padding: 2rem 0;
+	color: #fff;
+	font-size: 16px;
+}
 
+.footerBlocks {
+	padding: 0;
+}
+
+.footerBlocks h4 {
+	font-size: 21px;
+	color: #fefefe;
+}
+
+.footerBlocks p {
+	font-family: "Open Sans Regular";
+}
+
+.footerBlocks p span {
+	font-family: "Open Sans Bold";
+}
+
+.footerBlocks .locationText {
+	font-family: "Open Sans Bold";
+}
+
+@media screen and (min-width: 578px) {
+	#footer {
+		padding: 4rem 0;
+	}
+}
 
 /****	FIN  FOOTER   ****/
