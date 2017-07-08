@@ -80,10 +80,6 @@ ul {
 	font-size: 25px;
 }
 
-#headerText img {
-    width: 250px;
-}
-
 #bookTableButton {
 	font-family: "Lato Regular";
 	font-size: 18px;
@@ -102,12 +98,6 @@ ul {
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.28);
 	color: #fff;
-}
-
-@media screen and (min-width: 578px) {	
-	#headerText img {
-		width: auto;
-	}
 }
 
 @media screen and (min-width: 578px) and (max-width: 767px) {	
@@ -190,10 +180,6 @@ ul {
     font-size: 36px;
 }
 
-.menu .divider {
-	width: 100%;
-}
-
 .menu .list-group-item {
 	background-color: transparent;
     border: none;
@@ -220,10 +206,6 @@ ul {
 @media screen and (min-width: 578px) {
 	#menus {
 		padding: 5rem 0;
-	}
-	
-	.menu .divider {
-		width: auto;
 	}
 }
 
@@ -254,10 +236,6 @@ ul {
 
 #guestReviews h3 {
 	font-size: 22px;
-}
-
-#guestReviews img {
-		width: 100%;
 }
 	
 blockquote p {
@@ -307,10 +285,6 @@ blockquote p:before {
 	
 	#guestReviews h3 {
 		font-size: 36px;
-	}
-	
-	#guestReviews img {
-		width: auto;
 	}
 }
 
@@ -363,7 +337,148 @@ blockquote p:before {
 
 /***** DEBUT RESERVATIONS   ****/
 
+#reservations {
+	background: url(images/reservationBackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	padding: 2rem 0rem;
+}
 
+#reservation1 {
+	background: url(images/reservation1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 350px;
+}
+
+#reservation2 {
+	background: url(images/reservation2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 350px;
+}
+
+#reservationForm h3 {
+	font-size: 30px;
+	color: #cc9900;
+}
+
+.reservationFormText {
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: #4c4c4c;
+	padding: 0;
+}
+
+#bookingForm1 {
+	width: 100%;
+    float: right;
+}
+
+#bookingForm2 {
+	width: 100%;
+    float: left;
+}
+
+#bookingForm1 label, #bookingForm2 label {
+	font-family: "Open Sans Bold";
+	font-size: 14px;
+	color: #c9a131;
+}
+
+#bookingForm1 #formGroupExampleInput, #bookingForm1 .form-control, #bookingForm2 .form-control, #bookingForm2 #dropdownMenuButton {
+	border-radius: 0;
+    border: 1px solid #c8c6c6;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-family: "Open Sans Italic";
+    font-size: 16px;
+	color: #7c7c7c;
+}
+
+#bookingForm1 #formGroupExampleInput {
+    border: 1px solid #c9a131;
+}
+
+#bookingForm1 #rightButton {
+	border-radius: 0;
+    border: 1px solid #c8c6c6;
+    border-left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+	color: #7c7c7c;
+}
+
+#bookingForm2 #dropdownMenuButton {
+	width: 100%;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+}
+
+#bookingForm2 .dropdown-toggle::after {
+    content: "\f107";
+	font-family: "FontAwesome";
+    font-size: 13px;
+    display: inline-block;
+	float: right;
+    border: 0;
+    width: auto;
+    margin-left: 0;
+	cursor: pointer;
+}
+
+#bookNow {
+	margin: 0 auto;
+    background-color: #c89f2d;
+    border: 1px solid #c89f2d;
+    font-family: "Open Sans Regular";
+    font-size: 16px;
+    color: #fff;
+    border-radius: 0;
+    padding: 0.5rem 3rem;
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	
+}
+
+@media screen and (min-width: 578px) {
+	#reservationForm h3 {
+		font-size: 36px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {	
+	#bookingForm1 #formGroupExampleInput, #bookingForm1 .form-control, #bookingForm2 .form-control, #bookingForm2 #dropdownMenuButton {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#reservations {
+		padding: 5rem 0rem;
+	}
+	
+	#reservation1, #reservation2 {
+		height: 100%;
+	}
+	
+}
+
+@media screen and (min-width: 992px) {
+	.reservationFormText {
+		padding: 0 2rem;
+	}
+	
+	#bookingForm1, #bookingForm2 {
+		width: 85%;
+	}
+}
 
 /****	FIN  RESERVATIONS   ****/
 
@@ -385,6 +500,10 @@ blockquote p:before {
 	color: #fefefe;
 }
 
+#headerText img, .menu .divider, #guestReviews img, #reservationForm img, .footerBlocks img {
+	width: 100%;
+}
+
 .footerBlocks p {
 	font-family: "Open Sans Regular";
 }
@@ -400,6 +519,10 @@ blockquote p:before {
 @media screen and (min-width: 578px) {
 	#footer {
 		padding: 4rem 0;
+	}
+	
+	#headerText img, .menu .divider, #guestReviews img, #reservationForm img, .footerBlocks img {
+		width: auto;
 	}
 }
 
