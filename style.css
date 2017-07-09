@@ -100,55 +100,6 @@ ul {
 	color: #fff;
 }
 
-@media screen and (min-width: 578px) and (max-width: 767px) {	
-	#headerText {
-		min-height: 360px;
-		padding: 20px 0 55px;
-	}
-
-	#slidetext1 {
-		font-size: 46px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {	
-	#headerText {
-		padding: 100px 0 78px;
-	}
-
-	#slidetext1 {
-		font-size: 70px;
-	}
-}
-
-@media screen and (min-width: 992px) {	
-	#navigation a {
-		font-size: 21px;
-		padding-top: 1.5rem;
-	}
-
-	#navigationBar .navbar-light #navigation .navbar-nav .active > .nav-link, 
-	#navigationBar #navigation a:hover, #navigation a:focus {
-		margin-top: -1.4rem;
-		padding-top: 2.7rem;
-	}
-	
-	#headerText {
-		min-height: 650px;
-		padding: 130px 0 108px;
-	}
-
-	#slidetext1 {
-		font-size: 90px;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {	
-	#navigation a {
-		font-size: 18px;
-	}
-}
-
 /****	FIN  HEADER   ****/
 
 /***** DEBUT ABOUT   ****/
@@ -179,19 +130,6 @@ ul {
 	height: 100%;
 }
 
-@media screen and (min-width: 578px) {
-	#aboutText h3 {
-		font-size: 36px;
-	}
-}
-
-
-@media screen and (min-width: 768px) {
-	#about {
-		padding: 5rem 0;
-	}
-}
-
 /****	FIN  ABOUT   ****/
 
 /***** DEBUT INGREDIENTS   ****/
@@ -220,40 +158,6 @@ ul {
 
 #ingredientsContent p {
 	color: #fff;
-}
-
-@media screen and (min-width: 578px) {
-	#ingredientsContent {
-		padding: 2rem;
-	}
-	
-	#ingredientsContent h3 {
-		font-size: 36px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {	
-	#ingredientsContent {
-		padding: 3rem 2.5rem;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	#ingredients {
-		padding: 6rem 0;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-	.ingredientsImage img {
-		width: 125%!important;
-	}
-}
-
-@media screen and (min-width: 992px) {
-	#ingredientsContent {
-		padding: 5rem 3.5rem;
-	}
 }
 
 /****	FIN  INGREDIENTS   ****/
@@ -297,12 +201,6 @@ ul {
     font-family: "Lato Regular";
     font-size: 16px;
 	margin-top: 0.3rem;
-}
-
-@media screen and (min-width: 578px) {
-	#menus {
-		padding: 5rem 0;
-	}
 }
 
 /****	FIN  MENUS   ****/
@@ -353,78 +251,6 @@ blockquote p:before {
 	font-family: "Lato Regular";
 	font-size: 12px;
 	color: #fff;
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	blockquote p {
-		font-size: 18px;
-		line-height: 1.8;
-	}
-	
-	blockquote p:before {
-		font-size: 80px;
-		margin-left: -20px;
-	}
-	
-	#author {
-		font-size: 14px;
-	}
-}
-
-@media screen and (min-width: 578px) {
-	#guestReviews {
-		width: 77%;
-		padding: 2rem;
-	}
-	
-	#guestReviews h3 {
-		font-size: 36px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {	
-	#reviews {
-		padding: 5rem 0.5rem;
-	}
-	
-	#guestReviews {
-		padding: 3rem;
-	}
-
-	blockquote p {
-		font-size: 20px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	blockquote p:before {
-		font-size: 96px;
-		margin-top: -60px;
-		margin-left: -40px;
-	}
-	
-	blockquote p {
-		line-height: 2;
-	}
-	
-	#author {
-		font-size: 18px;
-	}
-}
-
-@media screen and (min-width: 992px) {
-	#reviews {
-		padding: 5rem 8.5rem;
-	}
-	
-	#guestReviews {
-		padding: 5rem;
-	}
-	
-	blockquote p {
-		font-size: 25px;
-		line-height: 2;
-	}
 }
 
 /****	FIN  REVIEWS   ****/
@@ -534,39 +360,6 @@ blockquote p:before {
     padding: 0.5rem 3rem;
 }
 
-@media screen and (min-width: 578px) {
-	#reservationForm h3 {
-		font-size: 36px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {	
-	#bookingForm1 #formGroupExampleInput, #bookingForm1 .form-control, #bookingForm2 .form-control, #bookingForm2 #dropdownMenuButton {
-		font-size: 14px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	#reservations {
-		padding: 5rem 0rem;
-	}
-	
-	#reservation1, #reservation2 {
-		height: 100%;
-	}
-	
-}
-
-@media screen and (min-width: 992px) {
-	.reservationFormText {
-		padding: 0 2rem;
-	}
-	
-	#bookingForm1, #bookingForm2 {
-		width: 85%;
-	}
-}
-
 /****	FIN  RESERVATIONS   ****/
 
 /***** DEBUT FOOTER   ****/
@@ -603,7 +396,65 @@ blockquote p:before {
 	font-family: "Open Sans Bold";
 }
 
+/****	FIN  FOOTER   ****/
+
+/****   DEBUT MEDIA QUERIES    ****/
+
+@media screen and (min-width: 578px) and (max-width: 767px) {	
+	#headerText {
+		min-height: 360px;
+		padding: 20px 0 55px;
+	}
+
+	#slidetext1 {
+		font-size: 46px;
+	}
+	
+	blockquote p {
+		font-size: 18px;
+		line-height: 1.8;
+	}
+	
+	blockquote p:before {
+		font-size: 80px;
+		margin-left: -20px;
+	}
+	
+	#author {
+		font-size: 14px;
+	}
+}
+
 @media screen and (min-width: 578px) {
+	#aboutText h3 {
+		font-size: 36px;
+	}
+	
+	#ingredientsContent {
+		padding: 2rem;
+	}
+	
+	#ingredientsContent h3 {
+		font-size: 36px;
+	}
+	
+	#menus {
+		padding: 5rem 0;
+	}
+	
+	#guestReviews {
+		width: 77%;
+		padding: 2rem;
+	}
+	
+	#guestReviews h3 {
+		font-size: 36px;
+	}
+	
+	#reservationForm h3 {
+		font-size: 36px;
+	}
+	
 	#footer {
 		padding: 4rem 0;
 	}
@@ -613,4 +464,123 @@ blockquote p:before {
 	}
 }
 
-/****	FIN  FOOTER   ****/
+@media screen and (min-width: 768px) and (max-width: 991px) {	
+	#headerText {
+		padding: 100px 0 78px;
+	}
+
+	#slidetext1 {
+		font-size: 70px;
+	}
+	
+	#ingredientsContent {
+		padding: 3rem 2.5rem;
+	}
+	
+	#reviews {
+		padding: 5rem 0.5rem;
+	}
+	
+	#guestReviews {
+		padding: 3rem;
+	}
+
+	blockquote p {
+		font-size: 20px;
+	}
+	
+	#bookingForm1 #formGroupExampleInput, #bookingForm1 .form-control, #bookingForm2 .form-control, #bookingForm2 #dropdownMenuButton {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#about {
+		padding: 5rem 0;
+	}
+	
+	#ingredients {
+		padding: 6rem 0;
+	}
+	
+	blockquote p:before {
+		font-size: 96px;
+		margin-top: -60px;
+		margin-left: -40px;
+	}
+	
+	blockquote p {
+		line-height: 2;
+	}
+	
+	#author {
+		font-size: 18px;
+	}
+	
+	#reservations {
+		padding: 5rem 0rem;
+	}
+	
+	#reservation1, #reservation2 {
+		height: 100%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {	
+	#navigation a {
+		font-size: 18px;
+	}
+	
+	.ingredientsImage img {
+		width: 125%!important;
+	}
+}
+
+@media screen and (min-width: 992px) {	
+	#navigation a {
+		font-size: 21px;
+		padding-top: 1.5rem;
+	}
+
+	#navigationBar .navbar-light #navigation .navbar-nav .active > .nav-link, 
+	#navigationBar #navigation a:hover, #navigation a:focus {
+		margin-top: -1.4rem;
+		padding-top: 2.7rem;
+	}
+	
+	#headerText {
+		min-height: 650px;
+		padding: 130px 0 108px;
+	}
+
+	#slidetext1 {
+		font-size: 90px;
+	}
+	
+	#ingredientsContent {
+		padding: 5rem 3.5rem;
+	}
+	
+	#reviews {
+		padding: 5rem 8.5rem;
+	}
+	
+	#guestReviews {
+		padding: 5rem;
+	}
+	
+	blockquote p {
+		font-size: 25px;
+		line-height: 2;
+	}
+	
+	.reservationFormText {
+		padding: 0 2rem;
+	}
+	
+	#bookingForm1, #bookingForm2 {
+		width: 85%;
+	}
+}
+
+/****   FIN MEDIA QUERIES    ****/
