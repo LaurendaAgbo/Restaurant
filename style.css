@@ -153,7 +153,44 @@ ul {
 
 /***** DEBUT ABOUT   ****/
 
+#about {
+	background: url(images/aboutBackground.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	padding: 2rem 0;
+}
 
+#aboutText h3 {
+	font-size: 30px;
+	color: #cc9900;
+}
+
+#aboutText p {
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: #4c4c4c;
+}
+
+#dish img {
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (min-width: 578px) {
+	#aboutText h3 {
+		font-size: 36px;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	#about {
+		padding: 5rem 0;
+	}
+}
 
 /****	FIN  ABOUT   ****/
 
@@ -184,6 +221,7 @@ ul {
 	background-color: transparent;
     border: none;
     font-size: 21px;
+    text-align: left;
 }
 
 .menu .list-group-item .badge {
@@ -443,10 +481,6 @@ blockquote p:before {
     padding: 0.5rem 3rem;
 }
 
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	
-}
-
 @media screen and (min-width: 578px) {
 	#reservationForm h3 {
 		font-size: 36px;
@@ -500,7 +534,7 @@ blockquote p:before {
 	color: #fefefe;
 }
 
-#headerText img, .menu .divider, #guestReviews img, #reservationForm img, .footerBlocks img {
+#headerText img, #aboutText img, .menu .divider, #guestReviews img, #reservationForm img, .footerBlocks img {
 	width: 100%;
 }
 
@@ -521,7 +555,7 @@ blockquote p:before {
 		padding: 4rem 0;
 	}
 	
-	#headerText img, .menu .divider, #guestReviews img, #reservationForm img, .footerBlocks img {
+	#headerText img, #aboutText img, .menu .divider, #guestReviews img, #reservationForm img, .footerBlocks img {
 		width: auto;
 	}
 }
