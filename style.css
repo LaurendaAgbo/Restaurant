@@ -426,16 +426,12 @@ blockquote p:before {
 }
 
 @media screen and (min-width: 578px) {
-	#aboutText h3 {
+	#aboutText h3, #ingredientsContent h3, #guestReviews h3, #reservationForm h3 {
 		font-size: 36px;
 	}
 	
-	#ingredientsContent {
+	#ingredientsContent, #guestReviews {
 		padding: 2rem;
-	}
-	
-	#ingredientsContent h3 {
-		font-size: 36px;
 	}
 	
 	#menus {
@@ -444,15 +440,6 @@ blockquote p:before {
 	
 	#guestReviews {
 		width: 77%;
-		padding: 2rem;
-	}
-	
-	#guestReviews h3 {
-		font-size: 36px;
-	}
-	
-	#reservationForm h3 {
-		font-size: 36px;
 	}
 	
 	#footer {
@@ -495,7 +482,7 @@ blockquote p:before {
 }
 
 @media screen and (min-width: 768px) {
-	#about {
+	#about, #reservations {
 		padding: 5rem 0;
 	}
 	
@@ -515,10 +502,6 @@ blockquote p:before {
 	
 	#author {
 		font-size: 18px;
-	}
-	
-	#reservations {
-		padding: 5rem 0rem;
 	}
 	
 	#reservation1, #reservation2 {
