@@ -203,6 +203,22 @@ ul {
 	margin-top: 0.3rem;
 }
 
+.special {
+	background: url(images/specialBackground.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+	padding:0 10px;
+	font-family: "Lato Regular";
+    font-size: 14px;
+	float: right;
+}
+
+.menu .list-group-item.specialMenu {
+  border: 1px solid #ede8d3;
+}
+
 /****	FIN  MENUS   ****/
 
 /***** DEBUT REVIEWS   ****/
